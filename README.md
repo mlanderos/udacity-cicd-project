@@ -1,17 +1,14 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+Create a Flask ML application that runs on the Azure PAAS. This project uses GitHub Actions, Azure Pipelines & Microsoft Azure. 
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Trello board](https://trello.com/b/lE4CWh5C/udacityproject)
+* [Project Plan](https://docs.google.com/spreadsheets/d/1z4GQo_PN3lHZZPJMJW33TZ9Q7d-hLAnUwslk5_YBDqI/edit?usp=sharing)
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![GitHub Logo](/images/highleveldiagram.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
