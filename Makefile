@@ -4,7 +4,6 @@ setup:
 install:
 	python3 -m pip install --upgrade pip &&\
 	pip install --upgrade pip &&\
-	pip install wheel &&\
 	python3 -m pip install -r requirements.txt
 
 test:
