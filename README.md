@@ -19,15 +19,14 @@ Create a Flask ML application that runs on the Azure PAAS. This project uses Git
 
 * Create ssh-keys & upload them to your Github account
 
-* Clone your repo from the Azure terminal TODO:screen shot
+* Clone the copied repo from within Azure terminal <screenshot>
 
-* 
+* Passing tests that are displayed after running the `make all` command from the `Makefile` <screenshot>
+
+* <screenshot of Azure pipelines deployment>
 
 * Project running on Azure App Service
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-* Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
