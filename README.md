@@ -8,13 +8,22 @@ Create a Flask ML application that runs on the Azure PAAS. This project uses Git
 * [Project Plan](https://docs.google.com/spreadsheets/d/1z4GQo_PN3lHZZPJMJW33TZ9Q7d-hLAnUwslk5_YBDqI/edit?usp=sharing)
 
 ## Instructions
-![GitHub Logo](/images/highleveldiagram.png)
+![High level Diagram](/images/highleveldiagram.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+* Pre-requisites - An Azure account & Azure terminal setup with Bash
+
+* Download this repo
+
+* Log into Azue & open the Azure terminal
+
+* Create ssh-keys & upload them to your Github account
+
+* Clone your repo from the Azure terminal TODO:screen shot
+
+* 
 
 * Project running on Azure App Service
-
-* Project cloned into Azure Cloud Shell
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
