@@ -39,14 +39,13 @@ Create a Flask ML application that runs on the Azure PAAS. This project uses Git
 * While the application is running, invoke the `make_prediction_azure.app.sh` file to output a prediction value. Before you invoke the  `.sh` file, you need to update this line to the correct endpoint value you named your application whne running the `az webapp up...` command - https://github.com/mlanderos/udacity-cicd-project/blob/main/make_predict_azure_app.sh#L28
 ![AzurePrediction](/images/make_predict_output.png)
 
-* Output of streamed log files from deployed application
-
 >
 
 ## Enhancements
 
 * Add more related pytests for the application
-* TBD
+* Add logging for the application
+* Give the UI a facelift
 
 ## Demo 
 
