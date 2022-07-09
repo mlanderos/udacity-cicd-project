@@ -26,40 +26,30 @@ Create a Flask ML application that runs on the Azure PAAS. This project uses Git
 * Run the `make all` command from the `Makefile`
 ![MakeOutput](/images/make_output.png)
 
-* Run command `az webapp up --name FOO --runtime PYTHON:3.7 --sku B1
+* Run command `az webapp up --name FOO --runtime PYTHON:3.7 --sku B1`
 
-* Setup Azure Pipelines to connect to your clone repo, setup a service connection within the project settings
+* Setup Azure Pipelines to connect to your clone repo, setup a service connection within the project settings - [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Output from Azure Pipelines
 ![ADOoutput](/images/ADO_deployment.png)
 
-* Project running on Azure App Service
+* Running Azure App Service from Azure Pipelines automatic deployment
 ![AzureAppService](/images/AzureAppService.png)
 
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
-
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+* While the application is running, invoke the `make_prediction_azure.app.sh` file to output a prediction value
+![AzurePrediction](/images/make_predict_output.png)
 
 * Output of streamed log files from deployed application
 
-> 
+>
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+* Add more related pytests for the application
+* TBD
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+Unavailable at this time, but hope to have a video up soon! For now, thanks for reading!
 
 
