@@ -18,19 +18,23 @@ Create a Flask ML application that runs on the Azure PAAS. This project uses Git
 
 * Create ssh-keys & upload them to your Github account
 
-* Clone the copied repo from within Azure terminal <screenshot>
+* Clone the copied repo from within Azure terminal
+![CloneRepoFiles](/images/clonedrepo.png)
 
 * Change directory to cloned repo
 
-* Run the `make all` command from the `Makefile` <screenshot>
+* Run the `make all` command from the `Makefile`
+![MakeOutput](/images/make_output.png)
 
 * Run command `az webapp up --name FOO --runtime PYTHON:3.7 --sku B1
 
 * Setup Azure Pipelines to connect to your clone repo, setup a service connection within the project settings
 
-* <screenshot of Azure pipelines deployment>
+* Output from Azure Pipelines
+![ADOoutput](/images/ADO_deployment.png)
 
 * Project running on Azure App Service
+![AzureAppService](/images/AzureAppService.png)
 
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
